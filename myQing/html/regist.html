@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>注册页面</title>
+<script type="text/javascript" src="../js/jquery/jquery-1.7.2.min.js"></script>
+<link href="../css/public.css" rel="stylesheet" type="text/css" />
+<link href="../css/layer.css" rel="stylesheet" type="text/css"/>
+<link href="../css/table.css" rel="stylesheet" type="text/css" />
+<link href="../css/image.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="total_style" style="width:100%">
+		<div>
+			<img src="../image/regist/logo.png"/>		
+		</div>
+	</div>
+	<div class="center_layer">
+		<div class="inner_layer">
+			<p style="font-size:25px; font-weight:bold;">注册</p>
+			<div>
+				<table class="center_table">
+					<tbody>
+						<tr>
+							<td><label class="label1" >电子邮箱</label></td>
+							<td><input type="text" id="e-mail" /></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><label class="label1" >创建密码</label></td>
+							<td><input type="text" id="user_Pwd" /></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><label class="label1" >昵称</label></td>
+							<td><input type="text" id="user_Id" /></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><label class="label1" >性别</label></td>
+							<td>
+								<input type="radio" name="sex"id="user_sex" checked="checked" value=1 />
+								<label class="">男</label>	
+								<input type="radio" name="sex" />
+								<label class="">女</label>
+							</td>
+						</tr>
+						<tr>
+							<td><label class="label1">验证码</label></td>
+							<td><input type="text" /></td>
+							<td><img class="security_code" id="check_img" alt="" src="../image/regist/20081052211455477802.jpg" width="86" height="26"></td>
+							<td><a>换一换</a></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><input type="button" class="regist_button2" id="regist" value="完成注册" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<img class="down_image" src="../image/regist/discover_qing.png" />
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/regist.js"></script>
+</body>
+</html>

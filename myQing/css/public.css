@@ -1,0 +1,51 @@
+.layer_center{
+		margin:50px auto;
+		text-align:center
+	}
+a{
+		color:#66FFFF;
+	}
+.login_button{
+		width:100px;
+		height:37px;
+		margin : 30px 5px 5px 5px;
+		font:"ÐÂËÎÌå";
+		font-size:18px;
+		border-radius: 0.5em 0.5em 0.5em 0.5em;
+		background-color:#66FFFF
+	}
+html,body{
+        height:100%;
+        margin:auto;
+        width:100%;
+    }
+a#find_Pwd{
+		margin : 30px 5px 5px 5px;
+		font-size:1px;
+	}
+.layer_left{
+		text-align: left;
+	}
+a:link { text-decoration: none;}
+a:active { text-decoration:blink}
+a:hover { text-decoration:none;color: #33CCFF} 
+a:visited { text-decoration: none;color: green}
+.total_style{
+		padding-left:10%;
+		padding-top:10px;
+		width:100%;
+		height:80px;
+		background:url(../image/regist/header_bg_2.png);
+	}
+input{
+		margin:5px;
+	}
+.label1{
+		text-align:right;
+		float:right;
+		height:25px;
+		width:105px;
+	}
+.main{
+		width:100%;
+	}

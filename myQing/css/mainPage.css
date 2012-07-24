@@ -1,0 +1,124 @@
+.mainPage_top{
+		height:190px;
+		padding-left:15%;
+		padding-top:10px;
+		width:85%;
+		background:url(../image/mainPage/top.png);
+	}
+.img_line{ 
+		float:left; 
+	}
+.ul_line{ 
+		float:left;
+		margin:80 800;
+	}
+.div_inline{
+		padding:0 0 0 280px;
+	}
+.div_inline li{
+		float:left;
+		padding:30px;
+		height:30px;
+	}
+.div_inli li{
+	width:10px;
+	float:left;
+	padding:20px 20px 20px 20px;
+	height:30px;
+	margin:0 50px;
+}
+li{
+		list-sytle:none;
+		list-style-type:none;
+		float:left;
+	}
+.top{
+		height:90px;
+	}
+.title{
+		height:90px;
+		float:left;
+		background-color:#FFFFFF;
+		width:880px;
+	}
+.head{
+		width:90px;
+		height:90px;
+		float:left;
+	}
+.l1{
+		background-image:url(../image/mainPage/panel_text.png);
+		background-position:0 0;
+	}
+.l2{
+		background-image:url(../image/mainPage/panel_text.png);
+		background-position:-61px 0;
+	}
+.l3{
+		background-image:url(../image/mainPage/panel_text.png);
+		background-position:-122px 0;
+	}
+.l4{
+		background-image:url(../image/mainPage/panel_text.png);
+		background-position:-183px 0;
+	}		
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	text-align:center;
+	height:100px;
+}
+/*框架宽度*/
+.all{
+	margin:0 auto;
+	width:960px;
+}
+/*每列的宽度，背景设置为无色，实现列于列之间的间隔（省去了float：left造成的不好调整问题）240*4==你懂得啊亲*/
+.number{
+	float:left;
+	width:240px;
+}
+/*margin:5px保证了宽度是230px 因为外框是240px，内嵌230px，哈哈你懂了吧，实现间隔*/
+.content
+{
+	margin:5px;
+	background-color:white;
+	border:1px solid #DDDDDD;
+	height:300px;
+	overflow:hidden;
+}
+img{
+	margin:10px;
+}
+.text{ 
+		margin:30px 10px 10px; 
+		font-size:12px; 
+		line-height:24px; 
+		color:#444;
+		}
+.loading{
+	position: absolute; 
+	width:100%;
+	height:40px;
+	display:none;
+	text-align:center;
+	background-color:RGB(189,203,207);
+}
+#toTop
+{
+	position:fixed; 
+	_position:fixed;
+	font-size:12px;
+	color:#524D4D;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	right:50px;
+	bottom:100px;
+	cursor:pointer;
+	background-color:#ccc;
+	display:none;
+}
